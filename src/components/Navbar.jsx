@@ -24,13 +24,13 @@ export default function Navbar() {
               <NavLink className="nav-link active" aria-current="page" to="/">
                 Home
               </NavLink>
-              <NavLink className="nav-link" to="#">
+              <NavLink className="nav-link" to="/fetch-categories">
                 Fetch: Categories
               </NavLink>
-              <NavLink className="nav-link" to="#">
+              <NavLink className="nav-link" to="/axios-categories">
                 Axios: Categories
               </NavLink>
-              <NavLink className="nav-link" to="#">
+              <NavLink className="nav-link" to="/rtk-query-categories">
                 RTK Query: Categories
               </NavLink>
             </div>
