@@ -8,8 +8,8 @@ import AxiosCategories from "./pages/axios/AxiosCategories"
 import RTKQueryCategories from "./pages/rtk-query/RTKQueryCategories"
 
 function App() {
-  const API_URL = import.meta.env.VITE_API_URL
-console.log("API_URL",API_URL)
+//   const VITE_CAT_API_URL = import.meta.env.VITE_CAT_API_URL
+// console.log("API_URL",VITE_CAT_API_URL)
   return (
     <>
       <Navbar />
