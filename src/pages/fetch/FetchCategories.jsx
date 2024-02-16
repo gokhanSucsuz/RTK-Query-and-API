@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+import { Link } from "react-router-dom";
 import LoadingComponent from "../../components/LoadingComponent";
 import useCategoriesFetchApi from "../../customHooks/useCategoriesFetchApi";
 
@@ -11,7 +12,7 @@ export default function FetchCategories() {
       <ul className="list-group">
         {data.map((item) =>
           <li key={item.id} className="list-group-item">
-            {item.name}
+            <Link to={`/fetch-category/${item.id}`}>{item.name}</Link>
           </li>
         )}
       </ul>

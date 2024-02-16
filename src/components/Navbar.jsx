@@ -5,8 +5,8 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/">
-            REDUX
+          <NavLink className="navbar-brand text-warning" to="/">
+            API Project with REDUX
           </NavLink>
           <button
             className="navbar-toggler"
