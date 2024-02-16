@@ -8,6 +8,7 @@ import AxiosCategories from "./pages/axios/AxiosCategories"
 import RTKQueryCategories from "./pages/rtk-query/RTKQueryCategories"
 import FetchCategory from "./pages/fetch/FetchCategory"
 import AxiosCategory from "./pages/axios/AxiosCategory"
+import RTKQueryCategory from "./pages/rtk-query/RTKQueryCategory"
 
 function App() {
   //   const VITE_CAT_API_URL = import.meta.env.VITE_CAT_API_URL
@@ -24,6 +25,7 @@ function App() {
             <Route path="/axios-categories" element={<AxiosCategories />} />
             <Route path="/axios-category/:categoryName" element={<AxiosCategory />} />
             <Route path="/rtk-query-categories" element={<RTKQueryCategories />} />
+            <Route path="/rtk-query-category/:categoryName" element={<RTKQueryCategory />} />
           </Routes>
         </Row>
       </Container>
